@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr:nth-child(even){
+            background-color: lavender;
+        }
+        button {
+            background-color:green;
+            color:white;
+            border: none;
+            font-size: 15px;
+            padding: 15px 32px;
+            cursor: pointer;
+            border-radius: 8px;
+            
+        }
+        .note {
+            background-color:lemonchiffon;
+            padding: 10px;
+        }
+        h3{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Introduction</h1>
+    <p>HTML is the standards markup language for creating web pages.</p>
+    <hr>
+    <div>
+        <h3>What is HTML?</h3>
+    <ul>
+        <li>HTML stands for markup Language</li>
+        <li>HTML is the standard markup language for creating web pages</li>
+        <li>HTML describes the structure of a Web page</li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+    </ul>
+    </div>
+    <hr>
+    <div>
+        <h3>A Simple HTML Document</h3>
+    <div style="background-color:gainsboro;width: 50%; padding: 10px; " >
+        Example
+        <div style="padding: 10px; ;">
+            <div style="background-color: white;padding: 5px; ">
+                <!-- <pre> -->
+                   <p>&#60;!DOCTYPE html&#62;</p> 
+                    <p>&#60;html&#62;</p>
+                    <p>&#60;head&#62;</p>
+                    <p>&#60;title&#62;Page Title&#60;/title&#62;</p>
+                    <p>&#60;/head&#62;</p>
+                    <p>&#60;body&#62;</p>
+                    <p>&#60;h1&#62;My First Heading&#60;/h1&#62;</p>
+                    <p>&#60;p&#62;My first paragraph.&#60;/p&#62;</p>
+                    <p>&#60;/body&#62;</p>
+                    <p>&#60;/html&#62;</p>
+                 <!-- </pre>  -->
+            </div>
+        </div>
+        <!-- <input type="" title="Try it yourself">Try it Yourself</input> -->
+         <button type="try it yourself">try it your self</button>
+    </div>
+    </div>
+    <hr>
+    <div>
+        <h3>Example Eplained</h3>
+    <ul>
+        <li>The &#60;!DOCTYPE html&#62; declaration defines that this document is an HTML5 document</li>
+        <li>The &#60;html&#62; element is the root element of an HTML page</li>
+        <li>The &#60;head&#62; element contains meta information about the HTML page</li>
+        <li>The &#60;title&#62; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+        <li>The &#60;body&#62; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+        <li>The &#60;h1&#62; element defines a large heading</li>
+        <li>The &#60;p&#62; element defines a paragraph</li>
+    </ul>
+    </div>
+    <div>
+        <h3>What is an HTML Element?</h3>
+    <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+    <p style="font-size: 20px;">&#60;tagname&#62; Content goes here... &#60;/tagname&#62;</p>
+    <p>The HTML element is everything from the start tag to the end tag:</p>
+    <pre style="font-size:20px;">
+        &#60;h1&#62;My First Heading&#60;/h1&#62;
+        &#60;p&#62;My first paragraph.&#60;/p&#62;
+    </pre>
+    <table frame="box"rules="rows" width="700px" cellpadding="15px">
+        <tr>
+            <td><b>Start tag </b></td>
+            <td><b>Element content </b></td>
+            <td><b>End tag</b></td>
+        </tr>
+        <tr>
+            <td>&#60;h1&#62;</td>
+            <td> My First Heading</td>
+            <td>&#60;/h1&#62;</td>
+        </tr>
+        <tr>
+            <td>&#60;p&#62;</td>
+            <td>	My first paragraph.</td>
+            <td>&#60;/p&#62;</td>
+        </tr>
+        <tr>
+            <td>&#60;br&#62;</td>
+            <td>none</td>
+            <td>none</td>
+        </tr>
+    </table>
+            <p class="note"><b>Note:</b>Some HTML elements have no content (like the &#60;br&#62; element). These elements are called empty elements. Empty elements do not have an end tag!</p>
+
+    </div> 
+    <hr>   
+    <div>
+        <h3>Web Browser</h3>
+    <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+    <p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+    <img src="./Screenshot 2025-03-15 130435.png" alt="" height="300" width="500">
+
+    </div>    
+    <div>
+        <h3>HTML Page Structure</h3>
+    <p>Below is a visualization of an HTML page structure:</p>
+    
+    <div style=" width:60%;border:1px solid grey;padding:3px;margin:0; background-color:gainsboro;" >
+        &#60;html&#62;
+        <div style="border:1px solid grey;padding:3px;margin: 15px;">
+            &#60;head&#62;
+            <div style="border:1px solid grey;padding:3px;margin: 15px;">
+                &#60;title&#62;Page Title&#60;/head&#62;
+            </div>
+
+            &#60;/head&#62;
+        </div>
+        <div style="border:1px solid grey;padding:3px;margin: 15px;">
+            &#60;body&#62;
+            <div style="border:1px solid grey;padding:3px;margin: 15px;background-color: white;">
+                <div style="border:1px solid grey;padding:5px;margin: 15px;">
+                    &#60;h1&#62;This is heading&#60;/h1&#62;
+                </div>
+                <div style="border:1px solid grey;padding:5px;margin: 15px;">
+                    &#60;p&#62;This is paragraph&#60;/p&#62;
+                </div>
+                <div style="border:1px solid grey;padding:5px;margin:15px;">
+                    &#60;p&#62;This is another paragraph&#60;/p&#62;
+                </div>
+            </div>  
+            &#60;/body&#62;
+        </div>
+        &#60;/html&#62;
+    </div>
+    <p class="note">
+        <b>Note:</b>The content inside the &#60;body&#62; section will be displayed in a browser. content inside the &#60;title&#62; element will be shown in the browser's title bar or in the page's tab.
+    </p>
+    </div>
+    <hr>
+    <div>
+        <h3>HTML History</h3>
+    <p>Since the early days of the World Wide Web, there have been many versions of HTML:</p>
+    <table frame="box" rules="rows" width="500px" cellpadding="10px">
+
+        <tr>
+            <td><b>Year</b></td>
+            <td><b>Version</b></td>
+        </tr>
+        <tr>
+            <td>1989</td>
+            <td>Tim Berners-Lee invented www</td>
+        </tr>
+        <tr>
+            <td>1991</td>
+            <td>Tim Berners-Lee invented HTML</td>
+        </tr>
+        <tr>
+            <td>1993</td>
+            <td>Dave Raggett drafted HTML+</td>
+        </tr>
+        <tr>
+            <td>1995</td>
+            <td>HTML Working Group defined HTML 2.0</td>
+        </tr>
+        <tr>
+            <td>1997</td>
+            <td>W3C Recommendation: HTML 3.2</td>
+        </tr>
+        <tr>
+            <td>1999</td>
+            <td>W3C Recommendation: HTML 4.01</td>
+        </tr>
+        <tr>
+            <td>2000</td>
+            <td>	W3C Recommendation: XHTML 1.0</td>
+        </tr>
+        <tr>
+            <td>2008</td>
+            <td>	WHATWG HTML5 First Public Draft</td>
+        </tr>
+        <tr>
+            <td>2012</td>
+            <td><a href="https://html.spec.whatwg.org/multipage/">WHATWG HTML5 Living Standard</a></td>
+        </tr>
+        <tr>
+            <td>2014</td>
+            <td><a href="https://html.spec.whatwg.org/multipage/">W3C Recommendation: HTML5</a></td>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>W3C Candidate Recommendation: HTML 5.1</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td><a href="https://html.spec.whatwg.org/multipage/"></a>W3C Recommendation: HTML5.1 2nd Edition</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td><a href="https://html.spec.whatwg.org/multipage/">	W3C Recommendation: HTML5.2</a></td>
+        </tr>
+    </table>
+    <p class="note">
+        <b>Note:</b>This tutorial follows the latest HTML5 standard.
+    </p>
+    </div>
+    <hr>
+    
+</body>
+</html>
